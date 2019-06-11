@@ -1,4 +1,10 @@
 var argButtonName, button_paper, button_rock, button_scissors, buttonTest;
+///////////ZADANIE 1 //////////////////
+const button_paper = 'papier' // dlatego że zawsze jest to papier
+const button_rock = 'kamień' // dlatego, że zawsze jest to kamień
+const button_scissors = 'nożyce' // dlatego, że zawsze dalej są to nożyce
+let argButtonName = ''// tu mogą być różne wartości
+
 
 /**
  * Describe this function...
@@ -17,6 +23,14 @@ button_scissors = document.getElementById('nożyce');
 button_scissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
 var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
+//////////ZADANIE 1/////
+
+let argComputerMove = 'papier' // dlatego, że dalej w kodzie mogą to być nożyce lub kamień
+let argMoveId = '1' // dlatego, że dalej w kodzie mogą to być ruchu 2 lub 3
+let argPlayerMove = 'kamień' // dlatego, że dalej w kodzie mogą to być nożyce lub papier
+let randomNumber = '' // tu operujemy na losowych liczbach
+const playerMove = 'argButtonName' // zawsze jest to samo
+
 
 /**
  * Describe this function...
